@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&family=Roboto:wght@400;500&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -78,7 +79,7 @@ a{
 .yt-link i {
   margin-right: 0.4rem;
 }
-.center-items {
+.center-items  {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +120,9 @@ a{
   background: -webkit-linear-gradient(45deg, #fd6584, #9544f4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.heading{
+  font-size: 3rem;
 }
 .header-content p {
   font-weight: 400;
@@ -165,6 +169,7 @@ a{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .vision-image {
   z-index: 1;
   position: relative;
@@ -175,9 +180,10 @@ a{
   position: absolute;
   left: 150px;
 }
-.vision-div{
+.vision-div {
   position: relative;
 }
+
 .our-vision {
   margin-top: 80px;
   width: 90%;
@@ -224,3 +230,115 @@ a{
   display: none;
 }
 /* end-home-css */
+.channel{
+  margin-top: 10%;
+}
+.channel-div{
+  
+  width: 60%;
+  border: 1px solid transparent;
+  padding: 40px 30px 30px 40px;
+  margin-left:8% ;
+  border-radius: 30px;
+  background: linear-gradient(
+    117.74deg,
+    rgba(253, 101, 132, 0.3) 0%,
+     rgba(253, 101, 132, 0.1) 100%
+  );
+  box-shadow: 0px 3.50349px 21.0209px -0.875872px rgba(38, 50, 56, 0.3);
+backdrop-filter: blur(17.5174px);
+border-radius: 26.2762px;
+
+}
+.div-channel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 5%;
+}
+
+.channel-image{
+ width: 50%;
+}
+.channel-image img{
+  /* height: auto; */
+  /* margin: auto; */
+  margin-left: 12vw;
+  margin-top:10% ;
+  width: 90%;
+}
+
+
+.channel-para{
+  font-weight: 500;
+font-size: 40px;
+padding-top: 6px;
+line-height: 120%;
+text-align: left;
+letter-spacing: -2px;
+padding-right:10% ;
+} 
+.channel-button{
+  margin-top: 5%;
+ float: right;
+ border: 1px solid #E6E6E6;
+ color: #fff;
+ background-color: transparent;
+border-radius: 8px;
+padding: 12px 25px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+/* channel ends  */
+
+/* github  */
+.github-image{
+  display: flex;
+}
+.github{
+ margin-top: 60%;
+}
+.github-para{
+  font-size: 30px;
+  /* margin-bottom: 20px; */
+}
+ .img2{
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.img2:hover{
+  transform: scale(0.9);
+}
+  .img1, .img3{
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.img1:hover , .img3:hover{
+  transform: scale(0.9);
+}
+/* .imgfull1, .imgfull3{
+  display: none;
+} */
+.github-image{
+  overflow-x: hidden;
+}
+
+.wave{
+ position: absolute; 
+ width: 100%;
+}
+.wave2{
+  position: absolute;
+  /* top: 0; */
+  margin-top: -155px;
+  width: 100%;
+}
+.image-container{
+  position: relative;
+}
+.git-button{
+  margin-top: -4px;
+}
